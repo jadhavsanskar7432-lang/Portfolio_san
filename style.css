@@ -1,4 +1,3 @@
-/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;600&family=Inter:wght@300;400&display=swap');
 
 body {
@@ -9,15 +8,13 @@ body {
   overflow-x: hidden;
 }
 .hero h1 {
-  font-family: 'Bebas Neue', sans-serif; /* keep bold hero */
+  font-family: 'Bebas Neue', sans-serif; 
 }
 h1, h2 {
   font-family: 'Edu NSW ACT Hand Cursive', cursive;
   letter-spacing: 1px;
 }
 
-
-/* NAVBAR */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -38,7 +35,6 @@ h1, h2 {
   position: relative;
 }
 
-/* underline animation */
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -54,7 +50,6 @@ h1, h2 {
   width: 100%;
 }
 
-/* BUTTON */
 button {
   background: white;
   color: #ff1a1a;
@@ -69,8 +64,6 @@ button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px white;
 }
-
-/* PAGE */
 .page {
   height: 90vh;
   display: flex;
@@ -78,7 +71,6 @@ button:hover {
   align-items: center;
 }
 
-/* HERO */
 .hero h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 100px;
@@ -90,7 +82,6 @@ button:hover {
   font-size: 18px;
 }
 
-/* CARD */
 .card {
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(20px);
@@ -196,27 +187,23 @@ body {
   transform: scale(1.1);
   box-shadow: 0 0 20px white;
 }
-/* PROJECT PAGE */
 .projects-page {
   padding: 100px 80px;
   max-width: 1200px;
   margin: auto;
 }
 
-/* TITLE */
 .projects-title {
   font-size: 70px;
   margin-bottom: 40px;
 }
 
-/* GRID (2 cards per row) */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
-/* CARD */
 .project-card {
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(20px);
@@ -225,26 +212,22 @@ body {
   transition: 0.3s;
 }
 
-/* HOVER */
 .project-card:hover {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 20px white;
 }
 
-/* TAGS */
 .tags {
   font-size: 14px;
   opacity: 0.8;
   margin: 10px 0;
 }
 
-/* DESCRIPTION */
 .desc {
   font-size: 14px;
   margin-bottom: 15px;
 }
 
-/* BUTTON */
 .buttons a {
   text-decoration: none;
   color: white;
@@ -259,12 +242,10 @@ body {
   color: #ff1a1a;
 }
 
-/* ABOUT PAGE */
 .about-page {
   padding: 80px;
 }
 
-/* TOP SPLIT */
 .about-top {
   display: flex;
   justify-content: space-between;
